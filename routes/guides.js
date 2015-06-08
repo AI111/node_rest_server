@@ -7,12 +7,7 @@ var libs = process.cwd() + '/src/';
 var mysql = require('mysql');
 
 var log = require(libs + 'log')(module);
-var connection = mysql.createConnection({ // Mysql Connection
-    host : 'localhost',
-    user : 'root',
-    password : 'helloworld',
-    database : 'umap'
-});
+var connection = require("../libs/db").connection;
 
 
 router.get('/',function(req,res){
