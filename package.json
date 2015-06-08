@@ -15,6 +15,7 @@
     "serve-favicon": "~2.2.1",
     "mysql": "~2.5.5",
     "express-myconnection": "1.0.4",
-    "winston": "^0.8.x"
+    "winston": "^0.8.x",
+      "node-mysql": "*"
   }
 }
